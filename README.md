@@ -13,7 +13,7 @@ models.
 
 ## Overview
 
-HADES is built around a *chorus* of hyper-specialized domain experts that
+HADES is built around a chorus of hyper-specialized domain experts that
 coordinate to produce collective intelligence no single model holds. The system
 is designed for emergent capability, substrate independence, and a permanent
 human-AI partnership with immutable consent protections built in at the
@@ -53,7 +53,7 @@ loop.
 - **Expert layer** - the chorus of specialized models that do the reasoning.
 - **Memory layer** - versioned, governed shared and personal stores.
 - **HERO** - hypothesis engine, routing, and orchestration.
-- **Communication seam (Iris)** - the systems that govern how messaging behaves,
+- **Internal communication (Iris)** - the systems that govern how messaging behaves,
   with the wire transport swappable behind the seam.
 - **Governance and meta-architecture** - voting, the operator seat, and the
   recursive self-improvement rules, including a backup-and-recovery requirement
@@ -63,12 +63,11 @@ loop.
 
 ## Status
 
-This is a design-stage research project. The whitepaper is a living document and
+This is a design-stage research project. The design-paper is a living document and
 the curated mid-level overview of the architecture; design docs hold the detailed
-history, and source code is ground truth where the two diverge.
+history, and source code is ground truth where the two diverge if at all. The design is meant to be flexible, allowing each HADES instance to build and rebuild itself using unique methods and tools.
 
 ## License
 
 HADES is dual-licensed under the GNU Affero General Public License v3.0
-(AGPL-3.0) and the Server Side Public License. Copyright (c) 2026 Nova soma
-labs, LLC. See the whitepaper's license section for full terms.
+(AGPL-3.0) and the Server Side Public License. Copyright (c) 2026 Nova soma labs, LLC. See the license section for full terms.
